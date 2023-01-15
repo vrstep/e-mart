@@ -25,9 +25,19 @@ header {
   justify-content: center;
 }
 
+/* Nav styles */
 nav {
   display: flex;
   gap: 500px;
+}
+
+.left-nav {
+  display: flex;
+  gap: 40px;
+}
+.right-nav {
+  display: flex;
+  gap: 40px;
 }
 
 /* Nav link styles */
