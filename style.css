@@ -25,6 +25,10 @@ header {
   justify-content: center;
 }
 
+.menu-bar {
+  background-image: url(img/menu-bar.png);
+}
+
 /* Nav styles */
 nav {
   display: flex;
