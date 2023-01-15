@@ -22,24 +22,31 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
   height: 810px;
 }
 
 .menu-bar {
   display: flex;
   flex-direction: column;
-  gap: 210px;
+  padding: 30px 95px;
   background-image: url(img/menu-bar.png);
   background-repeat: no-repeat;
   background-size: cover;
   flex: 1;
 }
 
+.menu-bar-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 220px;
+  flex: 1;
+}
+
 /* Nav styles */
 nav {
   display: flex;
-  gap: 500px;
+  gap: 950px;
 }
 
 .left-nav {
